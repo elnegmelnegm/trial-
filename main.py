@@ -35,6 +35,5 @@ with col2:
 container = st.container()
 container.subheader('Container')
 option_6 = container.slider('Please select option 6')
-st.warning('Elements outside of container will be displayed
-externally')
+st.warning('Elements outside of container will be displayed externally')
 container.info('**Option 6:** %s' % (option_6))
