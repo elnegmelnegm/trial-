@@ -17,8 +17,7 @@ with col2:
 container = st.sidebar.container()
 container.subheader('Container')
 option_3 = container.slider('Please select option 3')
-st.sidebar.warning('Elements outside of container will be
-displayed externally')
+st.sidebar.warning('Elements outside of container will be displayed externally')
 container.info('**Option 3:** %s' % (option_3))
 #Expander in main body
 st.subheader('Expander')
